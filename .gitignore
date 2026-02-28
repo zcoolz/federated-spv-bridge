@@ -1,0 +1,22 @@
+node_modules/
+data/
+backups/
+modified-backup/
+original-backup/
+
+# Internal debug/patch/deploy scripts
+bloom.js
+debug-parsed.js
+deploy-and-wipe.js
+deploy-patch.mjs
+header-sync-noban.js
+header-sync-patch-*.zip
+inspect-db.js
+parsed-route.js
+patch-*.sh
+relay-exec.js
+resave-bundle.js
+resave-bundle.mjs
+test-*.js
+wipe-and-restart.js
+DISASTER_RECOVERY.md

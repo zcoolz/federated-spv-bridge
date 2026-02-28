@@ -1,0 +1,20 @@
+{
+  "name": "bsv-spv-bridge",
+  "version": "1.0.0",
+  "description": "BSV SPV Bridge - True SPV with P2P network connection",
+  "main": "server-spv.js",
+  "scripts": {
+    "start": "node server-spv.js",
+    "start:woc": "node server.js",
+    "sync": "node header-sync.js",
+    "test-p2p": "node test-p2p.js",
+    "test-spv": "node test-spv.js"
+  },
+  "dependencies": {
+    "level": "^8.0.1",
+    "ws": "^8.16.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
